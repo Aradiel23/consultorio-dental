@@ -1,38 +1,206 @@
-.App {
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: white;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+
+header img {
+  height: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+header .icons {
+  display: flex;
+  align-items: center;
+}
+
+header .icons a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 10px;
+}
+
+header .reserve-btn {
+  background-color: #1E8268;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header-divider {
+  border-top: 1px solid #eee;
+  margin: 0 50px;
+}
+
+.hero-section {
+  text-align: left;
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.hero-section h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero-section p {
+  font-size: 24px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.hero-section button {
+  background-color: #1E8268;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.hero-section small {
+  display: block;
+  color: #666;
+}
+
+.hero-section img {
+  align-content: flex-end;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 30px;
+  
+}
+
+.services-section {
+  padding: 50px 0;
+  background-color: #f1f5f8;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.services-section h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.services-section .services {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content:left;
+  gap: 20px;
+}
+
+.services-section .service {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.services-section .service img {
+  width: 100%;
+  max-width: 100px;
+  margin-bottom: 15px;
+}
+
+.services-section .service h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.services-section .service a {
+  color: #1E8268;
+  text-decoration: none;
+}
+
+.testimonials-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.testimonials-section h2 {
+  font-size: 28px;
+  
+  margin-bottom: 30px;
+}
+
+.testimonials-section .testimonials {
+  display: flex;
+  justify-content: right;
+  gap: 20px;
+}
+
+.testimonials-section .testimonial {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials-section .testimonial p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.testimonials-section .testimonial h3 {
+  font-size: 14px;
+  color: #333;
+}
+
+footer {
+  background-color: #f1f5f8;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer .social-icons {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 10px;
+  margin-bottom: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+footer .social-icons a {
+  text-decoration: none;
+  color: #333;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer .social-icons a img {
+  width: 24px;
+  height: 24px;
+}
+
+footer p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
 }

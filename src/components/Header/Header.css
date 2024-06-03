@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Utiliza al menos el 100% de la altura de la ventana */
+}
+
+header {
+  width: 100%;
+  max-width: 1200px; /* Limita el ancho máximo del header */
+  background-color: #f8f8f8;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex: 1; /* Permite a los enlaces ocupar el espacio restante */
+  justify-content: center; /* Centra los enlaces de navegación */
+}
+
+.nav-links li {
+  margin: 0 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.search-icon-container {
+  display: flex;
+  align-items: center; /* Centra verticalmente los íconos */
+}
+
+.search-icon, .dark-mode-icon {
+  margin-left: 10px; /* Espaciado entre los íconos */
+}

@@ -1,0 +1,22 @@
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.footer .privacy-link {
+  color: #fff;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.footer .social-icons {
+  margin-top: 20px;
+}
+
+.footer .social-link {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 10px;
+}

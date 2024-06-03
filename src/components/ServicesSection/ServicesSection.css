@@ -1,0 +1,56 @@
+.services-section {
+  background-color: #f8f9fa; /* Color de fondo */
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.services-section h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  justify-items: center;
+}
+
+.service {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.service:hover {
+  transform: translateY(-5px);
+}
+
+.service img {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.service h3 {
+  font-size: 18px;
+  color: #016b65;
+  margin-bottom: 10px;
+}
+
+.service .MuiButton-root {
+  font-size: 14px;
+  color: #016b65;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.service .MuiButton-root:hover {
+  text-decoration: underline;
+}
